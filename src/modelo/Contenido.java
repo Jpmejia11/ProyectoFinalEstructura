@@ -1,5 +1,7 @@
 package modelo;
 
+import TipoContenido.TipoContenido;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -27,6 +29,9 @@ public class Contenido implements Comparable<Contenido> {
     }
 
     public Contenido(String number, String matemáticasBásicas, String cursoDeMatemáticas, TipoContenido.TipoContenido tipoContenido, String url, Usuario usuario1, String matemáticas) {
+    }
+
+    public Contenido(String number, String matemáticasBásicas, String cursoDeMatemáticas, TipoContenido tipoContenido, String url, Usuario usuario1, String matemáticas) {
     }
 
     // Getters
