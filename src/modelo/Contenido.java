@@ -29,9 +29,6 @@ public class Contenido implements Comparable<Contenido> {
     public Contenido(String number, String matemáticasBásicas, String cursoDeMatemáticas, TipoContenido.TipoContenido tipoContenido, String url, Usuario usuario1, String matemáticas) {
     }
 
-    public Contenido(String number, String matemáticasBásicas, String cursoDeMatemáticas, TipoContenido.TipoContenido tipoContenido, String url, Usuario usuario1, String matemáticas) {
-    }
-
     // Getters
     public String getId() { return id; }
     public String getTitulo() { return titulo; }
@@ -62,9 +59,5 @@ public class Contenido implements Comparable<Contenido> {
         }
         // Si el tema es igual, ordenar por fecha (más reciente primero)
         return otro.fechaPublicacion.compareTo(this.fechaPublicacion);
-    }
-
-    public enum TipoContenido{
-        DOCUMENTO, VIDEO, AUDIO, IMAGEN, ENLACE
     }
 }
